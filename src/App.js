@@ -1,11 +1,11 @@
 // import 'antd/dist/antd.css'
 import "./App.css";
-import FormValidate from "./FormCustom/FormValidate";
+import FileUpload from "./DragDropFileUpload/FileUpload";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FormValidate />
+        <FileUpload />
       </header>
     </div>
   );
