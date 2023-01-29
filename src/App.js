@@ -1,11 +1,11 @@
 // import 'antd/dist/antd.css'
 import "./App.css";
-import FileUpload from "./DragDropFileUpload/FileUpload";
+import TypographyCustom from "./TypographyAntDesign/TypographyCustom";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FileUpload />
+        <TypographyCustom />
       </header>
     </div>
   );
