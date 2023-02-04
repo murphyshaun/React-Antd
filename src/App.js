@@ -1,11 +1,11 @@
 // import 'antd/dist/antd.css'
 import "./App.css";
-import TypographyCustom from "./TypographyAntDesign/TypographyCustom";
+import DynamicForm from "./DynamicForm";
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <TypographyCustom />
+        <DynamicForm />
       </header>
     </div>
   );
