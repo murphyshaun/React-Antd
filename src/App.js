@@ -1,12 +1,12 @@
 // import 'antd/dist/antd.css'
 import "./App.css";
-import DynamicForm from "./DynamicForm";
+import SideMenu from "./SideMenu";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <DynamicForm />
-      </header>
+    <div className="">
+      {/* <header className="App-header"> */}
+      <SideMenu />
+      {/* </header> */}
     </div>
   );
 }
